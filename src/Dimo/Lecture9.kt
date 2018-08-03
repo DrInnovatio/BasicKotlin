@@ -1,4 +1,4 @@
-// What are the CONSTRUCTOR and secondary constructor ?
+package Dimo// What are the CONSTRUCTOR and secondary constructor ?
 
 fun main() {
     val a = Person2("James", 1998)

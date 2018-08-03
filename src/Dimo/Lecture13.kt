@@ -1,4 +1,4 @@
-// Scope and Access Modifier.
+package Dimo// Scope and Access Modifier.
 
 /**
  *  In the Package Scope
@@ -25,7 +25,7 @@
  * **/
 
 fun main() {
-    var a = "in the main class."
+    var a = "in the Dimo.main class."
     println(a)
     B().print()
 }
@@ -33,7 +33,7 @@ fun main() {
 val a = "Package Scope" // can be shared with all classes.
 
 class B {
-    var a = "In the B class."
+    var a = "In the Dimo.B class."
     fun print(){
         println(a)
     }

@@ -1,4 +1,4 @@
-// Class Polymorphysm
+package Dimo// Class Polymorphysm
 
 fun main() {
     var a = Drink()
@@ -25,7 +25,7 @@ open class Drink {
 }
 
 class Cola : Drink(){
-    var type = "Cola"
+    var type = "Dimo.Cola"
 
     override fun drink(){
         println("I drink $type among ${name}.")

@@ -1,19 +1,19 @@
-// Object
+package Dimo// Object
 /**
-fun main() {
-    println(Counter.count)
+fun Dimo.main() {
+    println(Dimo.Counter.count)
 
-    Counter.countUp()
-    Counter.countUp()
+    Dimo.Counter.countUp()
+    Dimo.Counter.countUp()
 
-    println(Counter.count)
+    println(Dimo.Counter.count)
 
-    Counter.clear()
+    Dimo.Counter.clear()
 
-    println(Counter.count)
+    println(Dimo.Counter.count)
 }
 
-object Counter {
+object Dimo.Counter {
     var count = 0
 
     fun countUp(){

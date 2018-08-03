@@ -1,4 +1,4 @@
-// Generic
+package Dimo// Generic
 
 fun main() {
     UsingGeneric(A()).doShouting()
@@ -14,19 +14,19 @@ fun <T: A> doShouting(t: T){
 
 open class A {
     open fun shout() {
-        println("A is shouting!")
+        println("Dimo.A is shouting!")
     }
 }
 
 class B2 : A() {
     override fun shout() {
-        println("B is shouting!")
+        println("Dimo.B is shouting!")
     }
 }
 
 class C : A() {
     override fun shout() {
-        println("C is shouting!")
+        println("Dimo.C is shouting!")
     }
 }
 

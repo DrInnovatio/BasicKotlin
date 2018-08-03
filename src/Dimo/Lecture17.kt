@@ -1,4 +1,4 @@
-// Observer Pattern
+package Dimo// Observer Pattern
 
 fun main() {
     EventPrinter().start()
@@ -29,13 +29,13 @@ class EventPrinter{
 
 
 /**
-class EventPrinter : EventListener{
+class Dimo.EventPrinter : Dimo.EventListener{
 override fun onEvent(count: Int) {
 print("${count} : ")
 }
 
 fun start(){
-val counter = Counter(this)
+val counter = Dimo.Counter(this)
 counter.count()
 }
 }

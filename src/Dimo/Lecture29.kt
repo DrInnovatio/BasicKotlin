@@ -1,6 +1,6 @@
-// Advanced variables, constants, lateinit, Lazy delegate properties
+package Dimo// Advanced variables, constants, lateinit, Lazy delegate properties
 
-//fun main() {
+//fun Dimo.main() {
 //
 //    val foodCourt = FoodCourt()
 //
@@ -27,11 +27,11 @@
 //    }
 //}
 //
-//fun main() {
-//    val a = LateInitSample()
-//    println(a.getLateInitText())
-//    a.text = "A new value assigned."
-//    println(a.getLateInitText())
+//fun Dimo.main() {
+//    val Dimo.getA = LateInitSample()
+//    println(Dimo.getA.getLateInitText())
+//    Dimo.getA.text = "Dimo.A new value assigned."
+//    println(Dimo.getA.getLateInitText())
 //}
 //
 //class LateInitSample {

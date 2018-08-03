@@ -1,4 +1,4 @@
-//bitwise operator
+package Dimo//bitwise operator
 
 fun main() {
     var bitData: Int = 0b10000

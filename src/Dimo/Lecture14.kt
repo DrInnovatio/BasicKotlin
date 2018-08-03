@@ -1,3 +1,5 @@
+package Dimo
+
 fun main() {
     b(::a)
 
@@ -9,9 +11,9 @@ fun main() {
 }
 
 fun a (str : String){
-    println("$str function a")
+    println("$str function Dimo.getA")
 }
 
 fun b (function : (String) -> Unit){
-    function("b calls it.")
+    function("Dimo.b calls it.")
 }

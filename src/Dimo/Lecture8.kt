@@ -1,12 +1,12 @@
-// Basic structure of CLASS.
+package Dimo// Basic structure of CLASS.
 
 fun main() {
 
     val a = Person("James", 1998)
     val b = Person("Laura", 2003)
 
-//    println("Hello My name is ${a.name} and I was born in ${a.birthYear}")
-//    println("Hello My name is ${b.name} and I was born in ${b.birthYear}")
+//    println("Hello My name is ${Dimo.getA.name} and I was born in ${Dimo.getA.birthYear}")
+//    println("Hello My name is ${Dimo.b.name} and I was born in ${Dimo.b.birthYear}")
 
     a.introduce()
     b.introduce()
@@ -36,6 +36,6 @@ class Player(var name : String, val score : Int){
     }
 
     fun car(car : String) {
-        println("He has a $car.")
+        println("He has Dimo.getA $car.")
     }
 }

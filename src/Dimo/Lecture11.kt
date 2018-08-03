@@ -1,7 +1,7 @@
-// overriding and abstraction
+package Dimo// overriding and abstraction
 
 /**
-fun main() {
+fun Dimo.main() {
     val baby = Tiger()
     baby.eat()
 
@@ -32,7 +32,7 @@ open class Animal2 {
 
 class Tiger : Animal2(){
     override fun eat(){
-        println("already ate a lot.")
+        println("already ate Dimo.getA lot.")
     }
 }
 **/
@@ -55,7 +55,7 @@ interface Defence {
 
 class Soldier : Shoot, Defence {
     override fun shooting() {
-        println("Shoot the enemies.")
+        println("Dimo.Shoot the enemies.")
     }
 
     override fun shield() {

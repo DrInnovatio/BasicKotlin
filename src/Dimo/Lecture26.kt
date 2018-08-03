@@ -1,20 +1,20 @@
-// Collection set and list
+package Dimo// Collection set and list
 //
-//fun main() {
+//fun Dimo.main() {
 //
-//    val a = mutableListOf("Orange", "Banana", "Kiwi")
+//    val Dimo.getA = mutableListOf("Orange", "Banana", "Kiwi")
 //
-//    for( item in a){
+//    for( item in Dimo.getA){
 //        println("$item")
 //    }
 //
-//    a.add("grape")
-//    println(a)
+//    Dimo.getA.add("grape")
+//    println(Dimo.getA)
 //
-//    a.remove("Banana")
-//    println(a)
+//    Dimo.getA.remove("Banana")
+//    println(Dimo.getA)
 //
-//    println(a.contains("Orange"))
+//    println(Dimo.getA.contains("Orange"))
 //
 //}
 

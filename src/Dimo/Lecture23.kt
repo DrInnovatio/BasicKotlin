@@ -1,6 +1,6 @@
-// The argument of function and infix function
+package Dimo// The argument of function and infix function
 
-//fun main(){
+//fun Dimo.main(){
 //
 //    read(7)
 //    read("WHat is this??")
@@ -14,9 +14,9 @@
 //    println(x)
 //}
 
-//fun main() {
+//fun Dimo.main() {
 //    deliveryItem("Noodle")
-//    deliveryItem("Book", 3)
+//    deliveryItem("Dimo.Book", 3)
 //    deliveryItem("Laptop", 30, "School")
 //    deliveryItem("Gift", destination = "friend's house")
 //}
@@ -25,7 +25,7 @@
 //    println("${name}, ${count} have beed delivered ${destination}.")
 //}
 
-//fun main() {
+//fun Dimo.main() {
 //    sum(1,2,3,4)
 //}
 //
@@ -38,7 +38,7 @@
 //    print(sum)
 //}
 
-//fun main() {
+//fun Dimo.main() {
 //    println(6 multiply 4)
 //    println(6 multiply (4))
 //}

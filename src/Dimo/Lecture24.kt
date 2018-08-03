@@ -1,4 +1,4 @@
-// Nested Class and Inner Class.
+package Dimo// Nested Class and Inner Class.
 
 fun main() {
     Outer.Nested().introduce()

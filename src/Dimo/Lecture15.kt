@@ -1,10 +1,12 @@
+package Dimo
+
 /**
  * Scope Function
  *
  * apply, run, with, also, let
  *
  * with is almost same with run
- * ex) a.run{}   with(a){} ==> difference.
+ * ex) Dimo.getA.run{}   with(Dimo.getA){} ==> difference.
  *
  * **/
 

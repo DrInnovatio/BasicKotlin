@@ -1,8 +1,8 @@
-import java.util.*
+package Dimo
 
 // String
 
-//fun main() {
+//fun Dimo.main() {
 //
 //    val test1 = "Test.Kotlin.String"
 //
@@ -20,11 +20,11 @@ import java.util.*
 //    println(test1.substring(5..10))
 //}
 
-//fun main() {
+//fun Dimo.main() {
 //    val nullString: String? = null
 //    val emptyString = ""
 //    val blankString = " "
-//    val normalString = "A"
+//    val normalString = "Dimo.A"
 //
 //    println(nullString.isNullOrEmpty())
 //    println(emptyString.isNullOrEmpty())

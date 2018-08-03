@@ -1,14 +1,14 @@
-// Collection Function 2
+package Dimo// Collection Function 2
 //
-//fun main() {
+//fun Dimo.main() {
 //
-//    data class Person(val name : String, val birthYear : Int)
+//    data class Dimo.Person(val name : String, val birthYear : Int)
 //
 //    val personList = listOf(
-//        Person("Yoona", 1992),
-//        Person("Joy", 1998),
-//        Person("Choo", 2001),
-//        Person("Yoona", 2002))
+//        Dimo.Person("Yoona", 1992),
+//        Dimo.Person("Joy", 1998),
+//        Dimo.Person("Choo", 2001),
+//        Dimo.Person("Yoona", 2002))
 //
 //    println(personList.associateBy {it.birthYear})
 //    println(personList.groupBy { it.name })
@@ -28,7 +28,7 @@ fun main() {
     println(numbers.getOrElse(1){50})
     println(numbers.getOrElse(10){50})
 
-    val names = listOf("A", "B", "C", "D")
+    val names = listOf("Dimo.A", "Dimo.B", "Dimo.C", "D")
 
     println(names zip numbers)
 }

@@ -1,3 +1,5 @@
+package Dimo
+
 // ABOUT List and mutable list
 fun main() {
     val a = listOf("apple", "orange", "pear", "strawberry", "grape")
