@@ -8,8 +8,6 @@
  *
  * **/
 
-
-
 fun main() {
 
     var price = 5000
