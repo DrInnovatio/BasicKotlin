@@ -38,11 +38,10 @@
 //    print(sum)
 //}
 
-fun main() {
-    println(6 multiply 4)
-    println(6 multiply (4))
-
-}
-
-infix fun Int.multiply(x: Int) =  this * x
+//fun main() {
+//    println(6 multiply 4)
+//    println(6 multiply (4))
+//}
+//
+//infix fun Int.multiply(x: Int) =  this * x
 
