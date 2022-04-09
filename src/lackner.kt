@@ -33,6 +33,10 @@ fun main() {
 
      **/
 
+    val shoppingList = mutableListOf<String>("Lamborghini", "Patek Philip", "Apt")
+    shoppingList.add("Ferrari")
+    println(shoppingList[3])
+
 
 
 
