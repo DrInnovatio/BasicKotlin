@@ -31,12 +31,43 @@ fun main() {
     val result = number1.toInt() + number2.toInt()
     println(result)
 
-     **/
+
 
     val shoppingList = mutableListOf<String>("Lamborghini", "Patek Philip", "Apt")
     shoppingList.add("Ferrari")
     println(shoppingList[3])
 
+    val foo = listOf<String>("one","two", "three", "four", "five")
+
+    var counter = 0
+    while(counter < shoppingList.size){
+        println(shoppingList[counter])
+        counter++
+    }
+
+    var counting = 0
+    while(counting < foo.size){
+        var bar  = foo[counting]
+        print("${bar} , ")
+        counting++
+    }
+
+     **/
+    val shoppingList = mutableListOf<String>("Lamborghini", "Patek Philip", "Apt")
+    shoppingList.add("Ferrari")
+
+    for (item in shoppingList){
+        println(item)
+    }
+
+    val x = 3
+    when(x){
+        in 1..2 -> println("X is between 1 and 2.")
+        in 3..10 -> println("X is between 3 and 10.")
+        else -> {
+            println("X is not in the range of 1 to 10.")
+        }
+    }
 
 
 
