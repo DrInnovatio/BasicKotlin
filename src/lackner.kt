@@ -1,3 +1,5 @@
+import kotlin.math.ln
+
 // https://www.youtube.com/watch?v=5flXf8nuq60
 
 fun main() {
@@ -52,7 +54,7 @@ fun main() {
         counting++
     }
 
-     **/
+
     val shoppingList = mutableListOf<String>("Lamborghini", "Patek Philip", "Apt")
     shoppingList.add("Ferrari")
 
@@ -69,11 +71,15 @@ fun main() {
         }
     }
 
+    val book = "Harry Potter"
 
+    when(book){
+        in "Harry Potter" -> println("What an exciting book!!")
+        in "Good bye" -> println("I don't know that book")
+        else -> {
+            println("You'd better read some books.")
+        }
+    }
 
-
-
-
-
-
+     **/
 }
