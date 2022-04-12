@@ -1,5 +1,3 @@
-import kotlin.math.ln
-
 // https://www.youtube.com/watch?v=5flXf8nuq60
 
 fun main() {
@@ -82,4 +80,18 @@ fun main() {
     }
 
      **/
+    stepFive()
+
+    val x = rectangular(4.54)
+    println("Result is : $x")
+}
+
+fun stepFive(){
+    for(i in 0..100 step 5){
+        println(i)
+    }
+}
+
+fun rectangular(x: Double): Double {
+    return x * 2
 }
